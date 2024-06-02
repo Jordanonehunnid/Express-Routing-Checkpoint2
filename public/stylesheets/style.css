@@ -1,0 +1,70 @@
+/* stylesheets/style.css */
+
+/* Basic reset */
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Body styling */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Optional: for better visibility *//* Optional: for better visibility */
+}
+
+
+/* Navigation bar styling */
+nav {
+  width: 100%;
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+/* Content styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 , p {
+  font-size:70px;
+}
+
